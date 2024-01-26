@@ -141,8 +141,8 @@ def fix_baseline(waveforms,parameters):
             if i % 1000 == 0:
                 plt.figure()
                 plt.plot(time, waveform)
-                plt.xlabel('Time')
-                plt.ylabel('Amplitude')
+                plt.xlabel('Time [s]')
+                plt.ylabel('Amplitude [V]')
                 plt.title('Waveform with Baseline Average Value Subtracted')
                 plt.show()    
         return waveforms, np.array(charge)
