@@ -200,7 +200,7 @@ if __name__ == '__main__':
     # List of file names in the directory
     file_names = os.listdir(data_dir)
     # Iterate through the file names
-    for file_name in [file_names[7]]:
+    for file_name in file_names:
         # Check if the file is a .Wfm.csv file
         if file_name.endswith('.Wfm.csv'):
             # Run the program
